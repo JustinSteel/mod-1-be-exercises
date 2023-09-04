@@ -21,7 +21,7 @@ require 'pry'
 # end
 # puts x
 
-## Example 4
+# # Example 4
 
 # def print_variable
 #   x = 4
@@ -31,7 +31,7 @@ require 'pry'
 # x = 2
 # print_variable
 
-## Example 5
+# # Example 5
 
 # def print_variable
 #   x = 4

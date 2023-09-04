@@ -14,7 +14,14 @@ new_tv = {
 # Lets change the hash above to use symbols instead of strings.
 # Syntax symbol with hash rocket:
 # create hash here
+new_tv = {
+  screen_size: 50, 
+  price: 300,
+  brand: "Samsung"
+}
 
-
+puts new_tv
+puts new_tv.keys
+puts new_tv.values
 # Syntax symbol without hash rocket:
 # create hash here
