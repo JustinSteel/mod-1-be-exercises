@@ -105,10 +105,15 @@ denver_biscuit_co = {
 
 # Challenge 1:
 # Return the name ("Denver Biscuit")
+denver_biscuit_co[:name]
 # Return the rating (4.5)
+denver_biscuit_co[:rating]
 # Return a list of accepted transactions (["pickup", "delivery"])
+denver_biscuit_co[:transactions]
 # Return the first listed category title ("Sandwiches")
+denver_biscuit_co[:categories]
 # Return the opening hour on Tuesday (day 1) ("0800")
+denver_biscuit_co[:hours][0][:open][1]
 # Return the closing hour on Saturday (day 5) ("1500")
 # Return the current open status (is_now_open) (true)
 
@@ -139,3 +144,4 @@ denver_biscuit_co = {
 
 # }
 # Note: day 0 is Monday, day 6 is Sunday
+require 'pry'; binding.pry

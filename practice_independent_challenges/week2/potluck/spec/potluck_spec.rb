@@ -103,7 +103,7 @@ RSpec.describe 'Potluck' do
       potluck.add_dish(candy_salad)
       potluck.add_dish(bean_dip)
 
-      expect(potluck.menu).to eq({:appetizers=>["Bean Dip", "Couscous Salad", "Summer Pizza"],:entres=>["Cocktail Meatballs", "Roast Pork"],:desserts=>["Candy Salad"]})
+      expect(potluck.menu).to eq({:appetizer=>["Bean Dip", "Couscous Salad", "Summer Pizza"],:entre=>["Cocktail Meatballs", "Roast Pork"],:dessert=>["Candy Salad"]})
     end
   end
 

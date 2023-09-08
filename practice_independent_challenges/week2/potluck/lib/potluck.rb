@@ -1,5 +1,6 @@
 class Potluck
   attr_reader :dishes, :date
+
   def initialize(date)
     @date = date
     @dishes = []
@@ -16,10 +17,9 @@ class Potluck
   def menu
     menu = Hash.new 
     
-    category = dishes.map {|dish| dish.category}.uniq.sort #cat in array
+    category = dishes.map {|dish| dish.category}.uniq #cat in array
     dishes.each do |dish|
-      # require 'pry'; binding.pry
-      menu[dish.category] = dishes.map {|dish| dish.name}
+    menu[dish.category] = dishes.map {|data| dish.name}.sort
     end
     menu
   end
